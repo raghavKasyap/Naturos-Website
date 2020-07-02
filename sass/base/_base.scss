@@ -1,0 +1,16 @@
+*,              /* This part basically resets everything in the browser that will help us to change the defaults*/
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{           /* Here we are setting the rem value which is normally 16px*/
+    font-size: 62.5%;
+}
+
+
+body {
+    box-sizing: border-box;
+}
